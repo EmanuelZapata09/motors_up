@@ -1,0 +1,154 @@
+<!-- /top navigation -->
+
+<!-- head -->
+<div class="right_col" role="main">
+
+  <div class="row" style="display: inline-block;">
+
+    <h1>Cotizaciones</h1>
+    <div class="tile_count">
+
+      <!--APARTADO DE AÑADIR FLECHA-
+            <i class="fa-solid fa-backward"></i> -->
+
+
+
+    </div>
+  </div>
+  <!--search-->
+  <div>
+
+    <div class="contenedorBarras">
+      <form class="d-flex">
+        <div class="bbuscar">
+          <nav class="navbar navbar-light bg-light">
+            <form class="container-fluid">
+              <div class="input-group">
+                <span style="border-radius: 40px;  background-color: white" class="input-group-text"
+                  id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i>
+                  <input style="border-radius: 40px; border: none;" type="text" class="form-control "
+                    placeholder="Buscar" aria-label="Nombre de usuario" aria-describedby="basic-addon1"></span>
+              </div>
+            </form>
+          </nav>
+        </div>
+        <!--Boton añadir rol-->
+        <div class="bañadir"><a href="anadirCotizaciones"><button class="btn btn-primary" style="border-radius: 40px" class="boton" 
+              style="color:white"><i class="fa-solid fa-plus"></i>Añadir cotizaciones</button></a>
+        </div>
+      </form>
+    </div>
+
+    <!-- tabla -->
+
+    <div class="row">
+      <div class="container mt-3">
+
+
+
+        <table class="table table-striped" style="font-size: 17px">
+          <thead>
+            <tr>
+              <th>Id cotizacion</th>
+              <th>Fecha</th>
+              <th>Cliente</th>
+              <th>Vehiculo</th>
+              <th>Descripcion</th>
+              <th>Insumos</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>01</td>
+              <td>4/09/2023</td>
+              <td>Julio Cortes</td>
+              <td>AMG20F</td>
+              <td>Reparación de Frenos</td>
+              <td>Pastas delanteras</td>
+              <td><a href="editar.html"><i class="fa-solid fa-pen-to-square fa-lg" style="color: #ef850b;"></i></a>
+                <div class="switch">
+                  <input type="checkbox" class="toggleSwitch" id="toggleSwitch1">
+                  <label class="toggleLabel" for="toggleSwitch1"></label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td>03/09/2023</td>
+              <td>Marcos Lopez</td>
+              <td>QCE33G</td>
+              <td>Ajuste de Válvulas</td>
+              <td>Tuercas</td>
+              <td><a href="editar.html"><i class="fa-solid fa-pen-to-square fa-lg" style="color: #ef850b;"></i></a>
+                <div class="switch">
+                  <input type="checkbox" class="toggleSwitch" id="toggleSwitch1">
+                  <label class="toggleLabel" for="toggleSwitch1"></label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>03</td>
+              <td>02/09/2023</td>
+              <td>Manuela Gomez</td>
+              <td>UZI20A</td>
+              <td>Reemplazo de Neumáticos</td>
+              <td>Neumaticos</td>
+              <td><a href="editar.html"><i class="fa-solid fa-pen-to-square fa-lg" style="color: #ef850b;"></i></a>
+                <div class="switch">
+                  <input type="checkbox" class="toggleSwitch" id="toggleSwitch1">
+                  <label class="toggleLabel" for="toggleSwitch1"></label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>04</td>
+              <td>01/09/2023</td>
+              <td>Patricia Vergara</td>
+              <td>OLP19E</td>
+              <td>Reemplazo de Kit de Cadena</td>
+              <td>Kit de Cadena Z1000</td>
+              <td><a href="editar.html"><i class="fa-solid fa-pen-to-square fa-lg" style="color: #ef850b;"></i></a>
+                <div class="switch">
+                  <input type="checkbox" class="toggleSwitch" id="toggleSwitch1">
+                  <label class="toggleLabel" for="toggleSwitch1"></label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>05</td>
+              <td>31/08/2023</td>
+              <td>Camila Paternina</td>
+              <td>UZI95F</td>
+              <td>Cambio de Farola</td>
+              <td>Bombillo led</td>
+              <td><a href="editar.html"><i class="fa-solid fa-pen-to-square fa-lg" style="color: #ef850b;"></i></a>
+                <div class="switch">
+                  <input type="checkbox" class="toggleSwitch" id="toggleSwitch1">
+                  <label class="toggleLabel" for="toggleSwitch1"></label>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--paginado-->
+      <div class="container mt-3">
+
+        <ul class="pagination justify-content-end">
+          <li class="page-item"><a class="page-link" href="javascript:void(0);"><i
+                class="fa-solid fa-backward-step"></i></a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="javascript:void(0);"><i
+                class="fa-solid fa-forward-step"></i></a></li>
+        </ul>
+      </div>
+
+
+      <!-- footer content -->
+      <!-- /footer content -->
+    </div>
+  </div>
